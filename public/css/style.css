@@ -1,0 +1,50 @@
+li:hover {
+    background-color: tomato;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+span {
+    float: right;
+}
+
+.li-checkbox {
+    position: relative;
+    display: block;
+}
+
+.check {
+    position: absolute;
+    margin-top: 25px;
+}
+
+.list-group-item {
+    margin-left: 25px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+#main-input {
+    margin-bottom: 25px;
+}
+
+#task-list {
+    margin-top: 50px;
+    width: 740px;
+}
+
+#add-button {
+    margin-left: 25px;
+    border-width: 3px;
+    border-color: #4cae4c;
+}
+
+#save {
+    border-width: 3px;
+    border-color: #28a4c9;
+}
+
+#show_completed {
+    border-width: 3px;
+    border-color: #d58512;
+}
